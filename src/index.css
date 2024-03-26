@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: black;
+}
+.container{
+    background-color: rgba(128, 128, 128, 0.9);
+    margin-top: 100px;
+    margin-left: 300px;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    border-radius: 20px;
+}
+h1{
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    font-size:xx-large
+}
+input{
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    font-size: xx-large;
+ 
+}
+.content{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.btnCopy{
+    background-color: blue;
+    height:50px;
+    width: 80px;
+    font-size: xx-large;
+ }
+ .footer{
+    margin-top: 40px;
+    width: 400px;
+    margin-left: 57px;
+    
+ }
+ 
+ .range{
+    width: 150px;
+    
+ }
+ label{
+    color: orange;
+    font-weight: 700;
+ }
